@@ -92,6 +92,25 @@ export const nftThemeMeta: NftThemeMeta = {
     tvImagePath: '/images/themes/pepe/tv-chart-image.png',
     useGradientBg: false,
   },
+  Peach: {
+    buttonStyle: 'flat',
+    fonts: {
+      body: ttCommons,
+      display: ttCommonsExpanded,
+      mono: ttCommonsMono,
+      rewards: lalezar,
+    },
+    logoPath: '/logos/logo.svg',
+    platformName: 'Peach',
+    rainAnimationImagePath: '',
+    sideImagePath: '',
+    sideTilePath: '',
+    sideTilePathExpanded: '',
+    topTilePath: '',
+    tvChartTheme: 'Light',
+    tvImagePath: '',
+    useGradientBg: false,
+  },
 }
 
 export const CUSTOM_SKINS: { [key: string]: string } = {

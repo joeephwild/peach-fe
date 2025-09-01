@@ -1,0 +1,55 @@
+{
+  "colors": {
+    "primary": "#FCBB75",
+    "secondaryBackground": "#FFE9D6",
+    "panelBackground": "#FBD6B5",
+    "cardBackground": "#FFF3EB",
+    "accentRed": "#E64A19",
+    "accentGreen": "#388E3C",
+    "textDark": "#4A3C2A",
+    "textLight": "#8E8E8E",
+    "white": "#FFFFFF"
+  },
+  "typography": {
+    "fontFamily": ["Inter", "Nunito Sans", "Roboto", "sans-serif"],
+    "sizes": {
+      "title": "22px",
+      "header": "18px",
+      "body": "14px",
+      "small": "12px"
+    },
+    "weights": {
+      "regular": 400,
+      "medium": 500,
+      "semiBold": 600,
+      "bold": 700
+    }
+  },
+  "layout": {
+    "sidebarWidth": "220px",
+    "topNavHeight": "60px",
+    "contentPadding": "24px"
+  },
+  "cards": {
+    "borderRadius": "16px",
+    "padding": "20px",
+    "rowHeight": "48px",
+    "gap": "24px"
+  },
+  "buttons": {
+    "height": "40px",
+    "borderRadius": "8px",
+    "paddingVertical": "8px",
+    "paddingHorizontal": "12px"
+  },
+  "icons": {
+    "style": "outline",
+    "strokeWeight": "1.5px",
+    "tokenIcons": "flat-circle-svg",
+    "brandIcon": "peach-logo"
+  },
+  "charts": {
+    "lineStroke": "2px",
+    "axisFontSize": "12px"
+  }
+}

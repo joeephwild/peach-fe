@@ -11,7 +11,7 @@ import useOpenPerpPositions from 'hooks/useOpenPerpPositions'
 import HistoryTabs from './HistoryTabs'
 import ManualRefresh from '@components/shared/ManualRefresh'
 import useMangoAccount from 'hooks/useMangoAccount'
-import AccountOverview from './AccountOverview'
+import PortfolioOverview from './PortfolioOverview'
 import AccountOrders from './AccountOrders'
 import { useRouter } from 'next/router'
 
@@ -98,7 +98,7 @@ const AccountTabs = ({ view }: { view: AccountPageTab }) => {
 const TabContent = ({ activeTab }: { activeTab: string }) => {
   switch (activeTab) {
     case 'overview':
-      return <AccountOverview />
+      return <PortfolioOverview />
     case 'balances':
       return <TokenList />
     case 'trade:positions':
@@ -110,7 +110,7 @@ const TabContent = ({ activeTab }: { activeTab: string }) => {
     case 'history':
       return <HistoryTabs />
     default:
-      return <AccountOverview />
+      return <PortfolioOverview />
   }
 }
 

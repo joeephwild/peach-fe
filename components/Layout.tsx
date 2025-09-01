@@ -138,8 +138,8 @@ const Layout = ({ children }: { children: ReactNode }) => {
       <div
         className={`min-h-screen grow ${
           !themeData.useGradientBg
-            ? 'bg-th-bkg-1'
-            : 'bg-gradient-to-b from-th-bkg-1 to-th-bkg-2'
+            ? 'bg-th-main-content'
+            : 'bg-gradient-to-b from-th-main-content to-th-bkg-2'
         } text-th-fgd-2 transition-all`}
       >
         <div className="fixed bottom-0 left-0 z-20 w-full md:hidden">
@@ -247,7 +247,7 @@ function DeployRefreshManager(): JSX.Element | null {
       leaveTo="opacity-0"
     >
       <button
-        className="fixed -bottom-[46px] left-1/2 z-50 flex -translate-x-1/2 items-center rounded-full border border-th-bkg-4 bg-th-bkg-3 px-4 py-3 shadow-md focus:outline-none md:hover:bg-th-bkg-4 md:hover:shadow-none"
+        className="fixed bottom-[46px] left-1/2 z-50 flex -translate-x-1/2 items-center rounded-full border border-th-bkg-4 bg-th-bkg-3 px-4 py-3 shadow-md focus:outline-none md:hover:bg-th-bkg-4 md:hover:shadow-none"
         onClick={() => window.location.reload()}
       >
         <p className="mr-2 whitespace-nowrap text-th-fgd-1">

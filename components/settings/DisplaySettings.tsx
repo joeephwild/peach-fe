@@ -62,6 +62,7 @@ const DEFAULT_THEMES = [
   'blueberry',
   'lychee',
   'olive',
+  'peach',
 ]
 
 const DisplaySettings = () => {

@@ -121,7 +121,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             autoConnect={autoConnect}
           >
             <MangoProvider />
-            <ThemeProvider defaultTheme="Mango Classic" storageKey={THEME_KEY}>
+            <ThemeProvider defaultTheme="peach" storageKey={THEME_KEY}>
               <PageTitle />
               <Layout>
                 <Telemetry />

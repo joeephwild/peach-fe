@@ -422,6 +422,37 @@ th {
   --warning: theme('colors.pepe-theme.warning');
 }
 
+[data-theme='peach'] {
+  --active: #FCBB75;
+  --active-dark: #e65100;
+  --down: #d32f2f;
+  --down-dark: #b71c1c;
+  --down-muted: rgba(211, 47, 47, 0.2);
+  --up: #388e3c;
+  --up-dark: #2e7d32;
+  --up-muted: rgba(56, 142, 60, 0.2);
+  --link: #FCBB75;
+  --link-hover: #e65100;
+  --bkg-1: #FFF7ED;
+  --bkg-2: #FDE1CE;
+  --bkg-3: #fff3eb;
+  --bkg-4: #ffe9d6;
+  --main-content: #FDE1CE;
+  --card-bkg: #FFF7ED;
+  --fgd-1: #4a3c2a;
+  --fgd-2: #4a3c2a;
+  --fgd-3: #6b5b4f;
+  --fgd-4: #8b7355;
+  --button: #FCBB75;
+  --button-hover: #e65100;
+  --input-bkg: #FFF7ED;
+  --input-border: #ffe9d6;
+  --input-border-hover: #FCBB75;
+  --error: #d32f2f;
+  --success: #388e3c;
+  --warning: #FCBB75;
+}
+
 /* Base */
 
 body {
